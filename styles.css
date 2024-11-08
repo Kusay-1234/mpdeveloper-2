@@ -9,6 +9,7 @@
 body{
   background-color: #635100;
   overflow-x: hidden;
+  height: 100vh;
 }
 
 .logo img{
@@ -95,17 +96,67 @@ body{
   font-size: 1rem;
 }
 
+.second{
+  display: flex;
+}
+
+.second img{
+  width: 50%;
+}
+
+.our-identity{
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+.our-identity h2{
+  font-size: 3rem;
+  background: linear-gradient(to left, #FFFFFF, #C5C5C5); /* Gradient from red to blue */
+  -webkit-background-clip: text; /* Apply the background to the text */
+  color: transparent; /* Make text color transparent so gradient shows through */
+}
+
+.our-identity h3{
+  font-size: 1.2rem;
+  color: white;
+  margin-top: 20px;
+}
+
+.our-identity p{
+  font-size: 1rem;
+  color: white;
+}
+
+.our-identity ol{
+  font-size: 1rem;
+  color: white;
+  margin-left: 40px;
+}
+
 .third{
   display: flex;
+  margin-top: 80px;
 }
 
 .box{
   display: flex;
 }
 
+.content1{
+  margin-left: 100px;
+}
+
 
 .content1 h2{
-  font-size: 2rem;
+  font-size: 3rem;
+  background: linear-gradient(to left, #FFFFFF, #C5C5C5); /* Gradient from red to blue */
+  -webkit-background-clip: text; /* Apply the background to the text */
+  color: transparent; /* Make text color transparent so gradient shows through */
+}
+
+.content1 p{
+  max-width: 50%;
+  color: white;
 }
 
 
@@ -113,26 +164,101 @@ body{
   background-color: white;
   border-radius: 20px;
   height: 180px;
-  width: 15%;
+  width: 14%;
   text-align: center;
 }
 
 .box1 img, .box2 img, .box3 img, .box4 img{
   padding-top: 25px;
+  width: 75px;
+  height: 75px;
 }
 
 .box1 h4, .box2 h4, .box3 h4, .box4 h4{
-  font-size: 12px;
+  font-size: 10px;
+  color: #635100;
 }
 
 .box1 p, .box2 p, .box3 p, .box4 p{
-  font-size: 10px;
+  font-size: 8px;
+  padding: 0 10px;
 }
 
+.box1{
+  position: absolute;
+  left: 58%;
+}
+
+.box2{
+  position: absolute;
+  left: 72.5%;
+  top: 232%;
+}
+
+.box3{
+  position: absolute;
+  left: 56.5%;
+  top: 268%;
+}
+
+.box4{
+  position: absolute;
+  left: 71%;
+  top: 263%;
+}
+
+.halfmoon{
+  width: 122%;
+  margin-left: -150px;
+  margin-top: 100px;
+}
+
+.img-content1, .img-content2{
+  display: flex;
+  position: absolute;
+}
+
+.img-content1{
+  top: 350%;
+}
+
+.img-content2{
+  top: 410%;
+}
+
+.img-content1 img{
+  width: 50%;
+  margin-left: 25px;
+}
+
+.img-content1 h2, .img-content2 h2{
+  font-size: 2rem;
+}
+
+.img-content1 p, .img-content2 p{
+  font-size: 1.2rem;
+}
+
+.img-content2 img{
+  width: 50%;
+}
+
+.img-content2 h2, .img-content2 p{
+  text-align: right;
+}
+
+.img-content2 .location-content{
+  margin-left: 20px;
+  margin-top: 50px;
+}
+
+
 footer{
-  height: 10%;
+  height: 12.5%;
   background-color: black;
   color: white;
+  position: relative;
+  top: -163px;
 }
 
 .get-in img{
