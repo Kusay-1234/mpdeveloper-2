@@ -1,0 +1,152 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
+  font-style: normal;
+}
+
+body{
+  background-color: #635100;
+  overflow-x: hidden;
+}
+
+.logo img{
+  width: 150px;
+  height: 150px;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+.front{
+  display: flex;
+}
+
+#circle{
+  width: 120%;
+  position: absolute;
+  top: -60%;
+  left: 27%;
+}
+
+#home{
+  width: 65%;
+  position: absolute;
+  left: 40%;
+  top: 44%;
+}
+
+.main-content{
+  margin-left: 110px;
+  position: relative;
+}
+
+.main-content h1{
+  font-size: 6rem;
+  color: white;
+}
+
+.main-content span{
+  position: absolute;
+  top: 0; /* Adjust vertical positioning if needed */
+  left: 95%; /* Adjust horizontal positioning if needed */
+  z-index: 3; /* Ensure the span is above the circle image */
+  color: #635100;
+}
+
+#land{
+  margin-top: -60px;
+}
+
+.main-content h2{
+  font-size: 6rem;
+  margin-top: -25px;
+  color: #635100;
+    text-shadow: 
+        1px 1px 0px #EBD782,   /* White shadow on the right and bottom */
+        -1px -1px 0px #EBD782, /* White shadow on the left and top */
+        1px -1px 0px #EBD782,  /* White shadow on the top-right */
+        -1px 1px 0px #EBD782;  /* White shadow on the bottom-left */
+
+}
+
+#community{
+  margin-top: -60px;
+  font-size: 5rem;
+  margin-left: -30px;
+}
+
+.arc {
+  width: 200px; /* Width of the circle */
+  height: 200px; /* Height of the circle */
+  background-color: white; /* Circle color */
+  border-radius: 50%; /* Makes the shape circular */
+  margin-left: 450px;
+  margin-top: 50px;
+}
+.arc-content{
+  position: absolute;
+  top: 115%;
+  left: 38%;
+  text-align: center;
+}
+
+.arc-content h5{
+  font-size: 1rem;
+}
+
+.third{
+  display: flex;
+}
+
+.box{
+  display: flex;
+}
+
+
+.content1 h2{
+  font-size: 2rem;
+}
+
+
+.box1, .box2, .box3, .box4{
+  background-color: white;
+  border-radius: 20px;
+  height: 180px;
+  width: 15%;
+  text-align: center;
+}
+
+.box1 img, .box2 img, .box3 img, .box4 img{
+  padding-top: 25px;
+}
+
+.box1 h4, .box2 h4, .box3 h4, .box4 h4{
+  font-size: 12px;
+}
+
+.box1 p, .box2 p, .box3 p, .box4 p{
+  font-size: 10px;
+}
+
+footer{
+  height: 10%;
+  background-color: black;
+  color: white;
+}
+
+.get-in img{
+  vertical-align: middle;
+  gap: 10px;
+}
+
+.get-in a{
+  font-size: 1rem;
+  text-decoration: none;
+  color: white;
+}
+
+.get-in, .info{
+  display: flex;
+  justify-content: center;
+}
