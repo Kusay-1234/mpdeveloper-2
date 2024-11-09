@@ -171,7 +171,7 @@ body{
 .box1 img, .box2 img, .box3 img, .box4 img{
   padding-top: 25px;
   width: 75px;
-  height: 75px;
+  height: 95px;
 }
 
 .box1 h4, .box2 h4, .box3 h4, .box4 h4{
@@ -275,4 +275,58 @@ footer{
 .get-in, .info{
   display: flex;
   justify-content: center;
+}
+
+
+@media screen and (max-width: 481px) {
+
+  .logo img{
+  width: 100px;
+  height: 100px;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+.main-content{
+  margin-left: 25px;
+}
+
+  .main-content h1{
+    font-size: 2rem;
+    margin-left: 15px;
+    position: relative;
+  }
+
+  #land{
+    margin-top: -20px;
+  }
+
+  .main-content h2 {
+    font-size: 2rem;
+    margin-top: -12px;
+    margin-left: 20px;
+    position: relative;
+  }
+
+  .main-content span{
+    left: 86%;
+  }
+
+  #community {
+    margin-top: -19px;
+    font-size: 2rem;
+    margin-left: -15px
+  }
+#circle{
+  top: -20%;
+  left: 25%;
+  width: 560px;
+}
+
+#home {
+  width: 250px;
+  top: 24%;
+  left: 46%;
+}
+
 }
